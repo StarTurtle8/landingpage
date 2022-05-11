@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    
+}
+img {
+    width: 250px;
+    height: auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.lowerheader {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.awesome {
+    max-width: 250px;
+    text-align: center;
+}
+.pulp {
+    max-width: 300px;
+}
+.header, .lowerheader {
+    background-color: #1f2937;
+}
+.links {
+    display: flex;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.quote {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.quotegiver {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 40px;
+}
+
+.header, .headerlinks {
+    display: flex;
+    gap: 5px;
+    text-decoration:  none;
+}
+.footer {
+    max-width: 400px;
+    max-height: auto;
+    background-color: orangered;
+    display: flex;
+    flex: 0;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.signup2 {
+    width: 100px;
+
+}
+.footertext {
+    width: 300px;
+}
+.truefooter {
+    background-color: aqua;
+    text-align: center;
+    padding: 16px
+}
